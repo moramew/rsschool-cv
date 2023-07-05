@@ -1,1 +1,42 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Quicksand", sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  border: 1px solid red;
+}
+
+.main {
+  border: 1px solid red;
+}
+
+.footer {
+  border: 1px solid red;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-item {
+  display: inline;
+  margin-right: 5px;
+  padding: 3px;
+}
