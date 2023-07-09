@@ -1,1 +1,137 @@
+* {
+  box-sizing: border-box;
+}
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Quicksand", sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  /*background-color: #ffd1dc;*/
+  background: linear-gradient(70deg, white, pink);
+  color: #000080;
+}
+
+.header {
+  background-color: #003f34;
+}
+
+.header a {
+  color: white;
+}
+
+.main {
+  /*border: 1px solid red;*/
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /*align-items: center;*/
+  /*align-content: center;*/
+  /*border: 1px solid green;*/
+}
+
+.section {
+  flex-direction: row;
+  width: 50%;
+  /*border-radius: 10px;*/
+  border: 1px solid transparent;
+  /*border-bottom: 1px solid #000080;*/
+  /*justify-items: center;
+  align-items: center;
+   align-content: center;
+  border: 1px solid blue;*/
+}
+
+.footer {
+  background-color: #ff6781;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-item {
+  /*display: inline;*/
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+
+  .nav {
+    display: none;
+  }
+}
+
+.section-title {
+  text-align: center;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+.photo {
+  width: 200px;
+  border-radius: 10%;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.section-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 40%;
+  height: 50%;
+  border-radius: 40px;
+  /* background-color: #c3e6fc;*/
+  background: radial-gradient(#c3e6fc 10px, transparent 100%);
+}
+
+.section-profile {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ul {
+  list-style-image: url(flwr.png);
+}
